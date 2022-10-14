@@ -25,7 +25,7 @@ export default {
     computed: {
         imgSrc() 
         {
-            return new URL(this.path, import.meta.url);
+            return new URL(`../assets/${this.path}`, import.meta.url);
         },
         fontSize()
         {

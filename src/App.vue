@@ -11,11 +11,11 @@ export default {
     {
         return {
             images: [
-                { id: id++, path: './../assets/foggy-lake.jpg', flexGrow: 1, topText: "hey", middleText: "let's", bottomText: "dance" },
-                { id: id++, path: './../assets/fox.jpeg', flexGrow: 1, topText: "give", middleText: "take", bottomText: "receive" },
-                { id: id++, path: './../assets/hike.jpeg', flexGrow: 1, topText: "experience", middleText: "it", bottomText: "today" },
-                { id: id++, path: './../assets/sky.jpeg', flexGrow: 1, topText: "give", middleText: "all", bottomText: "you can" },
-                { id: id++, path: './../assets/winter-mountain.jpeg', flexGrow: 1, topText: "life", middleText: "in", bottomText: "motion" }
+                { id: id++, path: 'foggy-lake.jpg', flexGrow: 1, topText: "hey", middleText: "let's", bottomText: "dance" },
+                { id: id++, path: 'fox.jpeg', flexGrow: 1, topText: "give", middleText: "take", bottomText: "receive" },
+                { id: id++, path: 'hike.jpeg', flexGrow: 1, topText: "experience", middleText: "it", bottomText: "today" },
+                { id: id++, path: 'sky.jpeg', flexGrow: 1, topText: "give", middleText: "all", bottomText: "you can" },
+                { id: id++, path: 'winter-mountain.jpeg', flexGrow: 1, topText: "life", middleText: "in", bottomText: "motion" }
             ]
         }
     },
